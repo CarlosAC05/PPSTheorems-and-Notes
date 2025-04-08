@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.4)  8 APR 2025 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.4)  8 APR 2025 16:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Kalle/Desktop/Finals/PPSTheorems-and-Notes/main.tex
-(c:/Users/Kalle/Desktop/Finals/PPSTheorems-and-Notes/main.tex
+**c:/Users/Kalle/Desktop/Finals/PPSTheorems-and-Notes/PPSEverything/DefinitionsOnly.tex
+(c:/Users/Kalle/Desktop/Finals/PPSTheorems-and-Notes/PPSEverything/DefinitionsOnly.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\Kalle\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -74,8 +74,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
 \l__pdf_internal_box=\box52
-) (main.aux)
-\openout1 = `main.aux'.
+) (DefinitionsOnly.aux)
+\openout1 = `DefinitionsOnly.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -154,27 +154,32 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
  (C:\Users\Kalle\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (15.94325pt too wide) in paragraph at lines 47--50
+[]$[]$ \OT1/cmr/m/n/10 The union S $\OMS/cmsy/m/n/12 \$ \OT1/cmr/m/n/10 T is the set con-sist-ing of the el-e-ments of ei-ther S or T. One can write S$\OMS/cmsy/m/n/12 \$\OT1/cmr/m/n/10 T= $[]$ 
+ []
+
+
 
 [1
 
-{C:/Users/Kalle/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.aux)
+{C:/Users/Kalle/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (DefinitionsOnly.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2412 strings out of 473523
- 36965 string characters out of 5714631
- 425653 words of memory out of 5000000
- 25645 multiletter control sequences out of 15000+600000
- 566919 words of font info for 68 fonts, out of 8000000 for 9000
+ 2417 strings out of 473523
+ 37271 string characters out of 5714631
+ 431675 words of memory out of 5000000
+ 25648 multiletter control sequences out of 15000+600000
+ 567603 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,253b,152s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (1 page, 62336 bytes).
+ 57i,9n,65p,295b,152s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Kalle\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Kalle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on DefinitionsOnly.pdf (1 page, 79937 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
