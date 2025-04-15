@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1744689771.08768 "c:/Users/ccace/OneDrive/Desktop/College/FinalsFiles/PPSTheorems-and-Notes/PPSEverything/definitionsOnly.tex" "definitionsOnly.pdf" "definitionsOnly" 1744689771.77451 0
-  "c:/Users/ccace/OneDrive/Desktop/College/FinalsFiles/PPSTheorems-and-Notes/PPSEverything/definitionsOnly.tex" 1744689770 5744 70989098467406080e6c7c641dfe18b1 ""
+["pdflatex"] 1744701312.54219 "c:/Users/ccace/OneDrive/Desktop/College/FinalsFiles/PPSTheorems-and-Notes/PPSEverything/definitionsOnly.tex" "definitionsOnly.pdf" "definitionsOnly" 1744701313.25623 0
+  "c:/Users/ccace/OneDrive/Desktop/College/FinalsFiles/PPSTheorems-and-Notes/PPSEverything/definitionsOnly.tex" 1744701312 6500 a379b8d6f75d9acd9637230745b938e7 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1743786099 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1743786791 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1743786494 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -32,6 +32,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1743785094 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1743785094 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1743785094 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1743785094 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1743785094 36118 fad905eba93cff5bce1e185fe980a177 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1743785094 34694 870c211f62cb72718a00e353f14f254d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1743786099 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
@@ -58,8 +59,8 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743789675 5546851 e7871638e4e57d7ca4525db0eb5a9d2a ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743789828 3346126 b9205808f5378aa65a63df209ec59c33 ""
   "c:/texlive/2025/texmf.cnf" 1743789658 713 e69b156964470283e0530f5060668171 ""
-  "definitionsOnly.aux" 1744689771 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "definitionsOnly.tex" 1744689770 5744 70989098467406080e6c7c641dfe18b1 ""
+  "definitionsOnly.aux" 1744701313 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "definitionsOnly.tex" 1744701312 6500 a379b8d6f75d9acd9637230745b938e7 ""
   (generated)
   "definitionsOnly.aux"
   "definitionsOnly.log"
