@@ -92,9 +92,144 @@ b$_j$ is convergent, and if
 $|a_j| \leq$ b$_j$ for all j, then $\sum_{j=1}^{\infty} a_j$
 is also convergent, and moreover $|\sum_{j=1}^{\infty} a_j| \leq \sum_{j=1}^{\infty} b_j$
 \par\textbf{\underline{\textit{Week 5:}}}
+\textbf{\underline{Lemma 9.1}}
+For all u,v $\in$ C:
+(1) $\overline{\mbox{u+v}} = \overline{\mbox{u}}+\overline{\mbox{v}}$
+(2) $\overline{\mbox{uv}} = \overline{\mbox{u}} * \overline{\mbox{v}}$
+(3) $ |\mbox{u+v}| = |\mbox{u}|+|\mbox{v}|$
+\par\textbf{\underline{Theorem 9.2 -De Moivre's}}
+If we let z = r(cos$\theta$ + isin$\theta$), and n $\in$ N then
+z$^n$ = r$^n$(cos$ n\theta$ + isin$ n\theta$)
+z$^{-n}$ = r$^{-n}$(cos$ -n\theta$ + isin$ -n\theta$) =  $\frac{1}{\mbox{r}^{-n}}$(cos($ n\theta$) - isin($ n\theta$))
+\par\textbf{\underline{Theorem 9.3 -Eulers Formula}}
+e$^{i\theta}$ = cos($\theta$) + isin($\theta$).
+\par\textbf{\underline{Theorem 9.4 -Roots of Unity}}
+The solutions to z$^n$ = 1 are 1, $w, \dots w^{n-1}$ where $w = e^{\frac{2\pi i}{n}}$
+That is, they are e$^{\frac{2\pi k i}{n}}$
+for k = 0, 1, $\dots $, n - 1.
+\par\textbf{\underline{Theorem 10.1 -Abel-Ruffini}}
+There is no formula (like the quadratic formula)
+for the roots of a polynomial of degree $\geq$ 5
+\par\textbf{\underline{Theorem 10.2 -Fundamental Theorem of Algebra}}
+Any complex polynomial has at
+least one root in C.
+\par\textbf{\underline{Theorem 10.3 -Factorization Theorem}}
+If $p$ is a degree $n$ polynomial, then there are $n$
+roots r$_1$, $\dots$ , r$_n$ $\in$ C and a number a $\in$ C so that
+$p(z) = a(z - r_1)(z - r_2) \dots (z - r_n).$
+\par\textbf{\underline{Theorem 10.4 -Real Polynomials have conjugate roots}}
+If p(x) has \textit{real} coefficients and
+r is a root, so is $\overline{\mbox{r}}$.
+\par\textbf{\underline{Theorem 10.5 -Root-Coefficient Theorem}}
+p(x) = x$^n$ + a$_{n-1}\mbox{x}^{n-1} + \dots + a_1\mbox{x} + a_0$, has
+roots r$_1, \dots, \mbox{r}_n$ (counting multiplicities), then
+r$_1 + \dots$ + r$_n$ = -a$_{n-1}$
+r$_1 \dots$ r$_n$ = (-1)$^na_0$.
+In general, if s$_j$ denotes the sum of all products of j-tuples of the roots (e.g. s$_2$ =
+r$_1$r$_2$ + r$_1$r$_3$ + r$_2$r$_3 + \dots$ ), then
+s$_j$ = (-1)$^ja_{n-j}.$
+\par\textbf{\underline{\textit{Week 6:}}}
+\textbf{\underline{Theorem 11.1 - The Remainder Theorem}}
+Let a $\in$ N and b $\in$ Z. There are unique integers $q \in$ Z and 0 $\leq$r$<$a such that
+b = qa+r
+\par\textbf{\underline{Lemma 11.2 }}
+If a divides b and b divides a then a = \underline{+}b
+\par\textbf{\underline{Lemma 11.3 -Linear Combination Lemma }}
+Let a, b, and d be integers. If d divides both
+a and b, then d divides every integer linear combination of a and b. In other words, for
+every pair of integers m, n $\in$ Z, the integer d also divides ma + nb.
+\par\textbf{\underline{Theorem 11.4 -Bezout's Identity}}
+Let a and b be integers. Then gcd(a, b) is an integer
+linear combination of a and b. That is, there are integers s and t such that gcd(a, b) =
+sa + tb.
+\par\textbf{\underline{Corollary 11.5 }}
+Let a, b, c $\in$ Z. Suppose c $\neq$ 0, c divides ab and gcd(a, c) = 1. Then c
+divides b.
+\par\textbf{\underline{Corollary 11.6 }}
+Let a, b $\in$ Z and let d $\in$ Z be such that d divides a and d divides b. Then d
+divides gcd(a, b).
+\par\textbf{\underline{Corollary 11.7}}
+Let d be a common divisor of a and b, which is divisible by all divisors
+of a and b. Then d = \underbar{+}gcd(a, b).
+\par\textbf{\underline{Corollary 11.8}}
+If a, b $\in$ Z, p is prime, and p divides ab, then either p divides a or p divides
+b (or both).
+\par\textbf{\underline{Corollary 11.9}}
+If n = p$_1^{m_1} \dots \mbox{p}_k^{m_k} $
+, where each of p$_1, \dots $, p$_k $ is prime, and if p is a prime 
+number that divides n, then p = p$_i$ for some i = 1, $\dots$ , k.
+\par\textbf{\underline{Theorem 11.10 -Fundamental Theorem of Arithmetic}}
+Let n $\geq$ 2 be an integer.\textit{Existence} Then n is equal to a product n = p$_1^{r_1}
+ \dots $ p$_k^{r_k}$
+of powers of prime numbers,
+where p$_1 < \dots < p_k$ and r$_i$ > 0 for all i.
+(Uniqueness) The factorization is unique. That is, if we also have
+p$_1^{r_1} \dots \mbox{p}_k^{r_k}
+= n = q_1^{s_1}
+ \dots q_{\ell}^{s_\ell}$
+ where q$_1 < \dots <$ q$_\ell$ are primes and s$_i >$ 0, then k = $\ell$, p$_i$ = q$_i$, and r$_i$ = s$_i$ for all i.
+ \par\textbf{\underline{Lemma 11.11 -Existence of prime decomposition, Part 1.}}
+ Every integer n $\geq$ 2 can be
+ written as a product of primes n = p$_1 \dots \mbox{p}_k$.
+ \par\textbf{\underline{Lemma 11.12 -Existence of prime decomposition, Part 2.}}
+ Every integer n $\geq$ 2 can be
+ written as a product of powers of primes n = p$_1^{r_1}
+ \dots \mbox{p}_k^{r_k}$
+where p$_1 <\dots< \mbox{p}_k$ and r$_i \geq$ 0.
+\par\textbf{\underline{Lemma 11.13 -Uniqueness of Prime decomposition.}}
+Every integer n can be written as
+a \textit{unique} product of powers of primes n = p$_1^{r_1}
+ \dots \mbox{p}_k^{r_k}$
+\par\textbf{\underline{Theorem 11.14}}
+Let n = p$_1^{a_1}
+ \dots \mbox{p}_k^{a_k}$ be a prime decomposition. Then m divides n if an only if 
+ m = p$_1^{b_1}
+ \dots \mbox{p}_k^{b_k}$ with each 0 $\leq b_i \leq a_i$
+ \par\textbf{\underline{Theorem 11.15}}
+ Let a and b have prime factorizations,
+a=p$_1^{r_1}
+ \dots \mbox{p}_m^{r_m}$, b = p$_1^{s_1}
+ \dots \mbox{p}_m^{s_m}$ Here p$_i$'s are distinct, but r$_i$ and s$_i$ are allowed to be zero. Then:
+(1) gcd(a,b) = p$_1^{min(r_1,s_1)} \dots \mbox{p}_m^{min(r_m,s_m)}$
+(2) lcm(a,b) = p$_1^{max(r_1,s_1)} \dots \mbox{p}_m^{max(r_m,s_m)}$
+(3) lcm(a,b) = ab/gcd(a,b).
+\par\textbf{\underline{Lemma 11.16}}
+Let r $\in$ Q. Then there exist unique coprime integers a and b such that
+r = $\frac{a}{b}$
+ and b $\geq$ 1.
+ \par\textbf{\underline{Theorem 11.17}}
+ Let n be a positive integer. Then $\sqrt{\mbox{n}} \in$ Q if and only if n is a perfect
+square, that is, n = m$^2$ for some integer m.
+\par\textbf{\underline{Theorem 11.18}}
+If a, b $\in$ N are coprime, and ab is an nth power, then so are a and b.
 
+\par\textbf{\underline{\textit{Week 7:}}}
+\textbf{\underline{Theorem 12.1}}
+Let m $\in$ N and a,b $\in$ Z. The following are equivalent:
+(1) a =b mod m; (2) m divides a - b; (3) a and b have same remainder when divided by m; (4) b = qm + a for some q $\in$ Z.
+\par\textbf{\underline{Theorem 12.2}}
+We have the following properties for integers a, b, c $\in$ Z and m $\in$ N:
+(1) a = a mod m;(2) If a = b mod m, then b = a mod m. (3) If a = b mod m and b = c mod m, then a = c mod m.
+\par\textbf{\underline{Theorem 12.3}}
+Suppose a = x mod m and b = y mod m. Then
+(1) -a = -x mod m; (2) a + b = x + y mod m; (3) ab = xy mod m; (4) or any natural number k, one has a$^k$ = x$^k$ mod m.
+\par\textbf{\underline{Theorem 12.4}}
+Let a and m be coprime. If x, y $\in$ Z and xa = ya mod m, then x = y
+mod m. In particular, if p is prime and p does not divide a, then xa = ya mod p implies
+that x = y mod p.
+\par\textbf{\underline{Theorem 12.5}}
+The equation ax = b mod m has a solution if and only if gcd(a, m) divides
+b.
+\par\textbf{\underline{Theorem 12.6}}
+Let m $\geq$ 2 be a natural number. Then Z/m is a field if and only if m is
+prime.
+\par\textbf{\underline{Theorem 12.7 -Fermat's Little Theorem}}
+Let a be an integer, and let p be a prime
+number. If p does not divide a, then
+a$^{p-1}-1 $ mod p
+\par\textbf{\underline{Theorem 12.8 -Fermat's Little Theorem}}
+Let n $\in$ N and p be a prime number. Assume n and p - 1 are coprime and
+p does not divide b. Then the equation x$^n$ = b mod p. has exactly one solution in x $\in {1, \dots ,\mbox{p}-1}$
 
-
-
-
-\end{document}
+\par\textbf{\underline{\textit{Week 8:}}}
+ \end{document}
