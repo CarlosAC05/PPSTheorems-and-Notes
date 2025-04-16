@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  15 APR 2025 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  15 APR 2025 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -159,14 +159,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 255.
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 261.
 
 
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 255.
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 261.
 
 Missing character: There is no · in font cmr12!
 
-Overfull \hbox (20.26682pt too wide) in paragraph at lines 271--275
+Overfull \hbox (20.26682pt too wide) in paragraph at lines 277--281
 []$[]$ \OT1/cmr/m/n/10 Let n $\OMS/cmsy/m/n/12 2$ \OT1/cmr/m/n/10 N and X$[]\OML/cmm/m/it/12 ; []$\OT1/cmr/m/n/10 , x$[] \OMS/cmsy/m/n/12 2$\OT1/cmr/m/n/10 C. Then (x$[] \OT1/cmr/m/n/12 + [] +$ \OT1/cmr/m/n/10 x$[]$)$[]$ = $[]$ $[]$
  []
 
