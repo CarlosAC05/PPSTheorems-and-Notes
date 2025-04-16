@@ -262,5 +262,63 @@ $\left( \begin{array}{c} n \\ k \end{array} \right)$ = $\frac{\mbox{n}!}{\mbox{k
 \par\textbf{\underline{Corollary 15.6}}
 For n $\geq$ 0, we have
 2$^n$= $\sum_{k=0}^{n}$ $\left( \begin{array}{c} n \\ k \end{array} \right)$
+\par\textbf{\underline{Theorem 15.8}}
+For n $\in$ N, k $\geq$ 2 and nonnegative integers r$_1, \dots$ , r$_k$ such that r$_1$ +$\dots$+r$_k$ = n,
+we have $\left( \begin{array}{c} n \\ r_1 \dots ,r_k \end{array} \right)$ = $ \frac{\mbox{n!}}{ \mbox{r}_1! \mbox{r}_2! \dots \mbox{r}_k! } $
+\par\textbf{\underline{Theorem 15.9 -The Binomial Theorem}}
+Let n $\in$ N and a, b $\in$ C. Then
+(a+b)$^n$ = $\sum_{k=0}^{n}$ $\left( \begin{array}{c} n \\ k \end{array} \right)$ a$^k$b$^{n-k}$
+\par\textbf{\underline{Theorem 15.10 -The Multinomial Theorem}}
+Let n $\in$ N and X$_1, \dots$, x$_k \in $C. Then
+(x$_1 + \dots +$ x$_k$)$^n$ = $\sum$ $\left( \begin{array}{c} n \\ r_1 \dots ,r_k \end{array} \right)$ x$_1^{r_1} \dots$ x$_k^{r_k}$
+where the sum is taken over all r$_i \in $ {0,1,$\dots $,n} such that r$_1 + \dots +$ r$_k$ =n
+\par\textbf{\underline{Theorem 15.11 -Inclusion Exclusion Principle}}
+Let n$\geq$2 and suppose A$_1$,A$_2 \dots $,A$_n$ are finite sets Let N$_1$ = $|A_1|+|A_2|+\dots + |A_n|$, N$_2$ = $|A_1 \cap A_2|+ |A_1 \cap A_3|+ |A_2 \cap A_3|+ \dots + |A_{n-1} \cap A_n| $,
+and similarily, let 
+N$_k$ = \fontsize{6}{5} $\left(\begin{array}{c} \sum \\  1\leq i_1<i_2<\dots <i_k \leq n \end{array} \right)$ \fontsize{12}{10} $|A_{i_1} \cap A_{i_2} \cap \dots \cap A_{i_k}|$
+be the sum of the sizes of the intersections of all collections of k different A$_i$'s, so that
+N$_n$ = $|\bigcap_{k=1}^n A_k|$ Then it equals $\sum_{k=1}^{n} (-1)^{k+1}N_k.$
+In particular, for finite sets A,B,C
+$|A\cup B| = |A| +|B| -|A \cap B|$,
+and
+$|A\cup B\cup C| = |A|+|B|+|C|-|A\cap B|-|A\cap C|-|B\cap C|+|A\cap B\cap C|$.
 
- \end{document}
+\par\textbf{\underline{\textit{Week 10:}}}
+\textbf{\underline{Lemma 16.1}}
+The set S$_n$ consists of exactly n! permutations.
+\par\textbf{\underline{Lemma 16.2}}
+The set S$_n$ equipped with the composition rule $\circ$ has the following properties
+(1)Closure: for any f and g in S$_n$, one has f $\circ$ g $\in$ S$_n$,
+(2)Associativity: for any f, g, and h in S$_n$, one has f $\circ$(g $\circ$ h) = (f $\circ$ g) $\circ$ h,
+(3)Identity element: there is unique permutation $\iota \in$ S$_n$ such that f $\circ \iota $ = $\iota \circ$ f =f
+for any f$\in$ S$_n$ (and we call $\iota$ the identity permutation),
+(4)Inverse: for any f $\in$ S$_n$, there is unique f$^{-1} \in$ S$_n$ such that
+f $\circ$ f$^{-1}$ = f$^{-1} \circ$ f = $\iota$.
+\par\textbf{\underline{Lemma 16.4}}
+If a$_1, \dots $, a$_r$ are distinct numbers in {1, 2, . . . , n} and f = (a$_1$ a$_2 \dots $ a$_r$) is a
+permutation, then the order of f is r.
+\par\textbf{\underline{Lemma 16.5}}
+Let f $\in$ S$_n$ have order m. If f$^{k}$ = $\iota$ for some integer k $\in$ N, then m divides k.
+\par\textbf{\underline{Theorem 16.6}}
+Any permutation f $\in$ S$_n$ is a composite of disjoint cycles, that is, f = f$_1 \dots $ f$_k$
+for some k $\geq$ 1 and disjoint cycles f$_1$, \dots , f$_k$.
+\par\textbf{\underline{Lemma 16.7}}
+Let f $\in$ S$_n$ and let m be its order. Write f = $\sigma_1\sigma_2\dots \sigma_s$ where $\sigma_1,\dots ,\sigma_s$ are disjoint cycles of length 
+r$_1, \dots$,r$_s$ respectivly. Then m=lcm(r$_1$,r$_2, \dots$, r$_s$),
+where lcm is the smallest positive integer that is divisible by r$_i$ for each i=1,$\dots$,s.
+\par\textbf{\underline{Lemma 16.8}}
+Every permutation in S$_n$ is a product of cycles of length 2.
+\par\textbf{\underline{Lemma 16.9}}
+Let n$\in$N
+(a) The sign of $\iota$ is 1 and any 2-cycle is -1
+(b)or any f and g in S$_n$, we have sgn(fg) = sgn(f)sgn(g).
+(c) the sign of a cycle of length r is (-1)r$^{-1}$
+(d)For every permutation f $\in$ S$_n$, let f = $\sigma_1\sigma_2 \dots \sigma_s$ where $\sigma_1, \dots , \sigma_s$ are disjoint cycles
+of lengths r$_1$,\dots , r$_s$.Then sgn(f) = (-1)$^{r_1-1}(-1)^{r_2-1}(-1)^{r_3-1} \dots $(-1)$^{r_s-1}$
+(e) If f $\in$ S$_n$, then sgn(f) = sgn(f$^{-1}$)
+\par\textbf{\underline{Corollary 16.10}}
+Let f be a permutation in S$_n$
+(1)f is even if and only if it is a product of even number of cycles of order 2.
+(2)f is odd if and only if it is a product of odd number of cycles of order 2.
+
+\end{document}
